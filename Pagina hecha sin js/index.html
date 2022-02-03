@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+  <title>Examen Moscas....</title>
+</head>
+
+<body>
+  <div class="container-fluid" id="contenedor">
+    <!-- Juego -->
+    <div class="row">
+      <div class="col-md-9">
+        <!-- Marcadores-->
+        <div class="row visor_tiempo justify-content-center  border-bottom">
+          <div class="col-md-3">Tiempo:
+
+            </span><span id="contadorseg">
+							30</span><span id="contadorcent">:00</span>
+            <span>seg</span>
+          </div>
+
+          <div class="col-md-3 text-center"> Puntos:
+            <span id="marcador">00</span>
+          </div>
+
+
+        </div>
+        <!-- Visor Juego-->
+        <div class="row">
+          <div id="fondo_juego" class="col-md visor_juego">
+            <img src="imagenes/mosca1.png" id="mosca_juego" class="mosca caja-mosca">
+          </div>
+        </div>
+      </div>
+
+      <!-- Configuracion-->
+      <div class="col-md-3 ">
+        <!-- Moscas -->
+        <div class="row justify-content-center">
+          <div class="col-md-11 border-bottom text-center mb-3 visor_tiempo">
+            Cambiar avatar
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-md-3">
+            <img src="imagenes/mosca1.png" id="mosca1" class="caja-moscas">
+          </div>
+
+          <div class="col-md-3">
+            <img src="imagenes/mosca2.png" class="caja-moscas">
+          </div>
+
+          <div class="col-md-3">
+            <img src="imagenes/mosca3.png" class="caja-moscas">
+          </div>
+
+          <div class="col-md-3">
+            <img src="imagenes/mosca4.png" class="caja-moscas">
+          </div>
+
+          <div class="col-md-3">
+            <img src="imagenes/mosca5.png" class="caja-moscas">
+          </div>
+
+          <div class="col-md-3">
+            <img src="imagenes/mosca6.png" class="caja-moscas">
+          </div>
+        </div>
+        <!-- fondos-->
+        <div class="row mt-3 justify-content-center">
+          <div class="col-md-11 border-bottom  text-center  visor_tiempo">
+            Cambiar Fondo
+          </div>
+        </div>
+        <div class="row">
+          <div class="row justify-content-center">
+            <div class="col-md-5">
+              <img src="imagenes/fondos/bosque.jpg" class="caja-fondos">
+            </div>
+            <div class="col-md-5">
+              <img src="imagenes/fondos/campo.jpg" class="caja-fondos">
+            </div>
+
+
+            <div class="col-md-5">
+              <img src="imagenes/fondos/tundra.jpg" class="caja-fondos">
+            </div>
+            <div class="col-md-5">
+              <img src="imagenes/fondos/cumbre.jpg" class="caja-fondos">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-11 border-bottom  text-center mb-3 visor_tiempo">
+            Cambiar Tamano
+          </div>
+        </div>
+
+        <div class="row justify-content-around">
+          <div class="col-md-3">
+            <img src="imagenes/mosca1.png" id="mosca_juego_grande" class="caja-moscas-grande">
+          </div>
+
+          <div class="col-md-3">
+            <img src="imagenes/mosca1.png" id="mosca_juego_mediana" class="caja-moscas-mediana">
+          </div>
+
+          <div class="col-md-3">
+            <img src="imagenes/mosca1.png" id="mosca_juego_peque" class="caja-moscas-peque">
+          </div>
+        </div>
+
+        <div class="row ">
+          <div class="col-md-12 text-center mt-2 mb-2  visor_tiempo">
+            <button class="btn btn-danger btn-block" id="jugar">
+							<span class="texto-boton">Jugar</span> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

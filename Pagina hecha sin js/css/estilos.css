@@ -1,0 +1,66 @@
+@font-face {
+  font-family: lcd;
+  src: url('../fuentes/lcd.ttf') format('truetype');
+}
+
+body {
+  background-image: url("../imagenes/fondo.jpg");
+}
+
+.container-fluid {
+  max-width: 1300px;
+}
+
+.visor_tiempo {
+  font-size: 1.25em;
+  font-family: 'lcd';
+  color: #ADFF2F;
+}
+
+.visor_juego {
+  height: 550px;
+  background-size: contain;
+  background-attachment: fixed;
+  border: 1px dotted gray;
+}
+
+.fondo-header {
+  background-color: #2F4F4F;
+}
+
+.mosca {
+  position: absolute;
+}
+
+.caja-moscas {
+  width: 80px;
+  height: 85px;
+}
+
+.caja-moscas-grande {
+  width: 80px;
+  height: 85px;
+}
+
+.caja-moscas-mediana {
+  width: 65px;
+  height: 50px;
+}
+
+.caja-moscas-peque {
+  width: 35px;
+  height: 25px;
+}
+
+.caja-fondos {
+  width: 125px;
+  height: 65px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.texto-boton {
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+  color: #ADFF2F;
+}
